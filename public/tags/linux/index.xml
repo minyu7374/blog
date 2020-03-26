@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on minyu&#39;s blog</title>
+    <link>https://wminyu.top/tags/linux/</link>
+    <description>Recent content in Linux on minyu&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 Mar 2020 21:38:53 +0800</lastBuildDate>
+    
+        <atom:link href="https://wminyu.top/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gentoo on Macbook Pro Driver for the Broadcom Facetime HD Webcam</title>
+      <link>https://wminyu.top/2020/03/gentoo-on-macbook-pro-driver-for-the-broadcom-facetime-hd-webcam/</link>
+      <pubDate>Thu, 26 Mar 2020 21:38:53 +0800</pubDate>
+      
+      <guid>https://wminyu.top/2020/03/gentoo-on-macbook-pro-driver-for-the-broadcom-facetime-hd-webcam/</guid>
+      <description>gentoo on macbook pro 按 gentoo wiki 配置 kernel 选项后, 仍然不能使用摄像头 Device Drivers ---&amp;gt; &amp;lt;M&amp;gt; Multimedia support ---&amp;gt; [*] Cameras/video grabbers support [*] Media USB Adapters ---&amp;gt; &amp;lt;M&amp;gt; USB Video Class (UVC) [*] UVC input events device support (NEW) lscpi 得到设备信息如下 Multimedia controller: Broadcom Limited 720p FaceTime HD Camera 据此</description>
+    </item>
+    
+    <item>
+      <title>POJ1185 炮兵阵地</title>
+      <link>https://wminyu.top/algorithm/poj1185-%E7%82%AE%E5%85%B5%E9%98%B5%E5%9C%B0/</link>
+      <pubDate>Thu, 26 Mar 2020 21:05:37 +0800</pubDate>
+      
+      <guid>https://wminyu.top/algorithm/poj1185-%E7%82%AE%E5%85%B5%E9%98%B5%E5%9C%B0/</guid>
+      <description>URL: http://poj.org/problem?id=1185 Description 司令部的将军们打算在NM的网格地图上部署他们的炮兵部队。一个NM的地图由N行M列组成，地图的每一格可能是山地（用&amp;quot;H&amp;rdq</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://wminyu.top/about/</link>
+      <pubDate>Thu, 26 Mar 2020 20:44:56 +0800</pubDate>
+      
+      <guid>https://wminyu.top/about/</guid>
+      <description>I&amp;rsquo;m minyu.</description>
+    </item>
+    
+  </channel>
+</rss>
