@@ -1,6 +1,0 @@
-[submodule "themes/maupassant-hugo"]
-	path = themes/maupassant-hugo
-	url = https://github.com/JokerQyou/maupassant-hugo.git
-[submodule "themes/pure"]
-	path = themes/pure
-	url = https://github.com/xiaoheiAh/hugo-theme-pure

@@ -1,7 +1,7 @@
-baseURL: https://wminyu.top/
+baseURL: https://example.com/
 theme: pure
-title: minyu's blog
-defaultContentLanguage: zh  # en/zh/...
+title: Pure theme for Hugo
+defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
@@ -34,31 +34,31 @@ menu:
   main:
     - identifier: home
       name: Home
-      title: 主页
+      title: Home
       url: /
       weight: 1
 
     - identifier: archives
-      name: Archives 
-      title: 归档 
+      name: Archives
+      title: Archives
       url: /posts/
       weight: 2
 
     - identifier: categories
       name: Categories
-      title: 分类 
+      title: Categories
       url: /categories/
       weight: 3
 
     - identifier: tags
       name: Tags
-      title: 标签 
+      title: Tags
       url: /tags/
       weight: 4
 
     - identifier: about
       name: About
-      title: 关于
+      title: About
       url: /about/
       weight: 5
 
@@ -73,7 +73,7 @@ params:
   # Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
   enableMathJax: true #Enable mathjax support, to use mathematical notations
   highlightjs:
-    langs: ["bash", "cpp", "c", "go", "haskell", "python", "javascript", "json", "x86asm"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+    langs: ["python", "javascript"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
 
   # Allows you to specify an override stylesheet
   # put custom.css in $hugo_root_dir/static/
@@ -94,16 +94,16 @@ params:
   profile:
     enabled: true # Whether to show profile bar
     avatar: avatar.png
-    gravatar: #
-    author: minyu 
-    author_title: Linux,算法,开源爱好者
+    gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+    author: xiaoheiAh
+    author_title: author title
     author_description: Good Good Study, Day Day Up~
-    location: BeiJing, China
-    follow: https://github.com/minyu7374
+    location: Shanghai, China
+    follow: https://github.com/xiaoheiAh
     # Social Links
     social:
       links:
-        github: https://github.com/minyu7374
+        github: https://github.com/xiaoheiAh
         # weibo: http://weibo.com/{yourid}
         # twitter: https://twitter.com/
         # facebook: /
@@ -116,7 +116,7 @@ params:
       width: 40
       height: 40
       url: favicon.ico
-    title: minyu's blog # 页面title
+    title: Hugo # 页面title
     favicon: favicon.ico
     board: <p>enjoy~</p> # 公告牌
 
@@ -130,7 +130,7 @@ params:
   # Comment
   comment:
     type:  # type disqus/gitalk/valine 启用哪种评论系统
-    disqus: # enter disqus shortname here
+    disqus: your_disqus_name # enter disqus shortname here
     gitalk: # gitalk. https://gitalk.github.io/
       owner: #必须. GitHub repository 所有者，可以是个人或者组织。
       admin: #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
